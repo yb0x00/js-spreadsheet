@@ -1,0 +1,162 @@
+:root {
+  --background-color: #eca1b2;
+  --background-color-app: #ffffff;
+  --btn-color: #8dc38c;
+  --accent-color: #aed8e6;
+  --text-color-dark: #333;
+  --text-color-light: #fff;
+  --border-color: #d9d9d9;
+  --background-color-body: #f4f4f4;
+
+  --background-color-header: #dedede;
+  --background-color-active-header: #aed8e6;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: var(--background-color);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+.app-container {
+  background-color: var(--background-color-app);
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: fit-content;
+}
+
+.app-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.control-button {
+  padding: 8px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: var(--btn-color);
+  color: var(--background-color-app);
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.cell-label-container {
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--text-color-dark);
+}
+
+.current-cell-address {
+  color: var(--text-color-dark);
+}
+
+.spreadsheet-grid-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--border-color);
+}
+
+.column-headers {
+  display: grid;
+  grid-template-columns: auto repeat(9, 1fr);
+  background-color: var(--background-color-body);
+  font-weight: bold;
+  text-align: center;
+}
+
+.row-and-cells-wrapper {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+.row-headers {
+  display: grid;
+  grid-template-rows: repeat(9, 1fr);
+  background-color: var(--background-color-body);
+  font-weight: bold;
+  text-align: center;
+}
+
+.cells-container {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(9, 1fr);
+  border-top: none;
+  border-left: none;
+}
+
+.header-cell {
+  border: 1px solid var(--border-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+
+  width: 75px;
+  height: 36px;
+  max-width: 75px;
+  max-height: 36px;
+}
+
+.cell {
+  border: 1px solid var(--border-color);
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  box-sizing: border-box;
+  text-align: left;
+  padding: 2px 4px;
+
+  width: 75px;
+  height: 36px;
+  max-width: 75px;
+  max-height: 36px;
+}
+
+.header-cell.corner {
+  background-color: var(--background-color-body);
+  border-right: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.cell.selected {
+  border: 2px solid var(--accent-color);
+  box-shadow: 0 0 5px rgba(174, 216, 230, 0.8);
+}
+
+.header-cell.active {
+  background-color: var(--background-color-active-header);
+  color: var(--text-color-light);
+}
+
+.cell.editing {
+  padding: 0;
+  border: 2px solid var(--accent-color);
+}
+
+.cell-editor {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  padding: 2px 4px;
+  font-family: inherit;
+  font-size: inherit;
+  text-align: inherit;
+  box-sizing: border-box;
+}
