@@ -1,12 +1,12 @@
 # JavaScript 기반 스프레드시트 앱
 
 📑 목차
-1. [배포 주소](https://github.com/yb0x00/js-spreadsheet/edit/main/README.md#1-%EB%B0%B0%ED%8F%AC-%EC%A3%BC%EC%86%8C)
-2. [실행 방법](https://github.com/yb0x00/js-spreadsheet/edit/main/README.md#2-%EC%8B%A4%ED%96%89-%EB%B0%A9%EB%B2%95)
-3. [결과물 스크린샷](https://github.com/yb0x00/js-spreadsheet/edit/main/README.md#3-%EA%B2%B0%EA%B3%BC%EB%AC%BC-%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7)
-4. [기능 목록](https://github.com/yb0x00/js-spreadsheet/edit/main/README.md#4-%EA%B8%B0%EB%8A%A5-%EB%AA%A9%EB%A1%9D)
-5. [피드백 받고 싶은 부분](https://github.com/yb0x00/js-spreadsheet/edit/main/README.md#5-%ED%94%BC%EB%93%9C%EB%B0%B1-%EB%B0%9B%EA%B3%A0-%EC%8B%B6%EC%9D%80-%EB%B6%80%EB%B6%84)
-6. [아쉬운 부분](https://github.com/yb0x00/js-spreadsheet/edit/main/README.md#6-%EC%95%84%EC%89%AC%EC%9A%B4-%EB%B6%80%EB%B6%84)
+1. [배포 주소](https://github.com/yb0x00/js-spreadsheet?tab=readme-ov-file#1-%EB%B0%B0%ED%8F%AC-%EC%A3%BC%EC%86%8C)
+2. [실행 방법](https://github.com/yb0x00/js-spreadsheet?tab=readme-ov-file#2-%EC%8B%A4%ED%96%89-%EB%B0%A9%EB%B2%95)
+3. [결과물 스크린샷](https://github.com/yb0x00/js-spreadsheet?tab=readme-ov-file#3-%EA%B2%B0%EA%B3%BC%EB%AC%BC-%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7)
+4. [기능 목록](https://github.com/yb0x00/js-spreadsheet?tab=readme-ov-file#4-%EA%B8%B0%EB%8A%A5-%EB%AA%A9%EB%A1%9D)
+5. [피드백 받고 싶은 부분](https://github.com/yb0x00/js-spreadsheet?tab=readme-ov-file#5-%ED%94%BC%EB%93%9C%EB%B0%B1-%EB%B0%9B%EA%B3%A0-%EC%8B%B6%EC%9D%80-%EB%B6%80%EB%B6%84)
+6. [아쉬운 부분](https://github.com/yb0x00/js-spreadsheet?tab=readme-ov-file#6-%EC%95%84%EC%89%AC%EC%9A%B4-%EB%B6%80%EB%B6%84)
 
 ## 1. 배포 주소
 https://yb0x00.github.io/js-spreadsheet/
